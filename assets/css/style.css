@@ -111,6 +111,12 @@ img{
     background-size: cover;
 }
 
+/* FEATURES */
+#features .card .card-body{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 /* SECTION TITLE */
 .section-title{
     margin-bottom: 60px;

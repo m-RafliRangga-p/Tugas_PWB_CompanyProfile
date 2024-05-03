@@ -105,10 +105,63 @@ img{
 }
 
 /* HERO */
-#hero{
+/* #hero{
     background: linear-gradient(rgba(var(--c-brand-rgb),.5), rgba(var(--c-brand-rgb),.4)), url(../img/hero-1.jpg);
     background-position: center;
     background-size: cover;
+} */
+
+/* CAROUSEL  */
+
+#hero-1{
+    height: 100vh;
+    background: linear-gradient(rgba(var(--c-brand-rgb),.5), rgba(var(--c-brand-rgb),.4)), url(../img/hero-1.jpg);
+    background-position: center;
+    position: relative;
+}
+
+#hero-1 .carousel-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+#hero-2{
+    height: 100vh;
+    background: linear-gradient(rgba(var(--c-brand-rgb),.5), rgba(var(--c-brand-rgb),.4)), url(../img/hero-2.jpg);
+    background-position: center;
+    position: relative;
+}
+
+#hero-2 .carousel-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+#hero-3{
+    height: 100vh;
+    background: linear-gradient(rgba(var(--c-brand-rgb),.5), rgba(var(--c-brand-rgb),.4)), url(../img/hero-3.jpg);
+    background-position: center;
+    position: relative;
+}
+
+#hero-3 .carousel-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators{
+    filter: invert(100%);
 }
 
 /* FEATURES */

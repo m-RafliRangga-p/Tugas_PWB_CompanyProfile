@@ -14,10 +14,14 @@
 }
 
 /* CSS RESET */
+html,body{
+    overflow-x: hidden;
+}
 body{
     font-family: var(--font-base);
     line-height: 1.7;
     color: var(--c-body);
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6,
@@ -118,6 +122,7 @@ img{
     background: linear-gradient(rgba(var(--c-brand-rgb),.5), rgba(var(--c-brand-rgb),.4)), url(../img/hero-1.jpg);
     background-position: center;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 #hero-1 .carousel-caption{
@@ -130,9 +135,10 @@ img{
 
 #hero-2{
     height: 100vh;
-    background: linear-gradient(rgba(var(--c-brand-rgb),.5), rgba(var(--c-brand-rgb),.4)), url(../img/hero-2.jpg);
+    background: linear-gradient(rgba(var(--c-brand-rgb),.5), rgba(var(--c-brand-rgb),.4)), url(../img/hero-4.jpg);
     background-position: center;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 #hero-2 .carousel-caption{
@@ -148,6 +154,7 @@ img{
     background: linear-gradient(rgba(var(--c-brand-rgb),.5), rgba(var(--c-brand-rgb),.4)), url(../img/hero-3.jpg);
     background-position: center;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 #hero-3 .carousel-caption{
@@ -381,3 +388,14 @@ footer .line{
 .social-icons i{
     font-size: 23px;
 }
+
+.book-table-img {
+    height: 70vh;
+    min-height: 500px;
+    border-radius: 30px;
+  }
+  
+  .back-img {
+    background-position: center;
+    background-size: cover;
+  }

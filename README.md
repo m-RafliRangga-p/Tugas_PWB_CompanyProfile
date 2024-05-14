@@ -6,7 +6,7 @@ Some custom made by Mr.Rp \
 Tugas Pertemuan 7
 
 ## Vue Version :
-https://github.com/m-RafliRangga-p/Elixir_Vue \
+https://github.com/m-RafliRangga-p/Elixir_Vue 
 
 Vue Convert Tutorial : \
 https://www.youtube.com/watch?v=gX2g_KveCnA
